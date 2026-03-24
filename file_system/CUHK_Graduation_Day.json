@@ -1,0 +1,12 @@
+{
+    "segments": [
+        {
+            "content": "BEGIN:VCALENDAR\nPRODID:-//Custom//CUHK Graduation Calendar//EN\nVERSION:2.0\nCALNAME:CUHK Graduation Day\nCALSCALE:GREGORIAN\nMETHOD:PUBLISH\nBEGIN:VTIMEZONE\nTZID:Asia/Hong_Kong\nX-LIC-LOCATION:Asia/Hong_Kong\nBEGIN:STANDARD\nTZOFFSETFROM:+0800\nTZOFFSETTO:+0800\nTZNAME:HKT\nDTSTART:19700101T000000\nEND:STANDARD\nEND:VTIMEZONE\nBEGIN:VEVENT\nUID:a5b1c8c5-1bd4-44e3-b1c4-b811ad88e4d0@custom\nDTSTAMP:20251018T171558Z\nSUMMARY:CUHK Graduation Ceremony (My Big Day!)\nLOCATION:Shaw Hall\\, The Chinese University of Hong Kong\nDESCRIPTION:Remember to go and collect your graduation gown in advance. My parents and boyfriend will come to watch the ceremony.\nDTSTART;TZID=Asia/Hong_Kong:20240615T140000\nDTEND;TZID=Asia/Hong_Kong:20240615T163000\nEND:VEVENT\nBEGIN:VEVENT\nUID:f49b7989-aa1c-47ab-b277-19291ff4991a@custom\nDTSTAMP:20251018T171558Z\nSUMMARY:Graduation Celebration Dinner\nLOCATION:Din Tai Fung (New Town Plaza Store)\\, Sha Tin\nDESCRIPTION:A window seat was reserved in advance.\nDTSTART;TZID=Asia/Hong_Kong:20240615T190000\nDTEND;TZID=Asia/Hong_Kong:20240615T210000\nEND:VEVENT\nEND:VCALENDAR\n"
+        }
+    ],
+    "file_info": {
+        "file_path": "file_system/CUHK_Graduation_Day.ics",
+        "file_type": "ics",
+        "file_name": "CUHK_Graduation_Day.ics"
+    }
+}

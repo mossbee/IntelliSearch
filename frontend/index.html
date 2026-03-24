@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IntelliSearch: A Privacy-Preserving Multimodal Local File Question-Answering System</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h1>IntelliSearch: A Privacy-Preserving Multimodal Local File Question-Answering System</h1>
+      </header>
+
+      <section class="panel">
+        <button id="scanBtn" class="btn">Scan Computer</button>
+        <p id="scanStatus" class="status">Not scanned yet.</p>
+      </section>
+
+      <section class="panel">
+        <h2>Files</h2>
+        <div id="treeContainer" class="tree"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Ask a Question</h2>
+        <form id="searchForm" class="search-form">
+          <input
+            id="queryInput"
+            type="text"
+            placeholder="Example: What is my ID card number?"
+            required
+          />
+          <button type="submit" class="btn">Ask</button>
+        </form>
+        <p id="searchStatus" class="status"></p>
+      </section>
+
+      <section class="panel">
+        <h2>Answer</h2>
+        <div id="answer" class="answer">No answer yet.</div>
+        <h3>Source File</h3>
+        <div id="source" class="source">No source yet.</div>
+      </section>
+    </main>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
